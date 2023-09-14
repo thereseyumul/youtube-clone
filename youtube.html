@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Youtube.com Clone</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <div class="middle-section"> 
+        <input class="search-bar" type="text" placeholder="Search"> 
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg"> 
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-button">
+          <img class="voice-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">Youtube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <div class="current-user-picture-container">
+          <img class="current-user-picture"src="https://yt3.ggpht.com/yti/AOXPAcVCXhLgSuHyJfXpskNzo4s5vTW9Sc1PL7DWclLm6w=s88-c-k-c0x00ffffff-no-rj">
+        </div>
+      </div> 
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img  src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <!-- vertical -->
+          <div class="video-preview">
+            <!-- horizontal -->
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=y1sF6ZeASU0">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/y1sF6ZeASU0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAuBQJIIzZpJzYa7LrI_K4K4Ieu7Q">
+              </a>
+              <div class="video-time">27:00</div>
+            </div>
+            <!-- horizontal -->
+            <div class="video-info-grid">
+              <!-- horizontal -->
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaTRm18lZvdPRNXcX1wallR7RAkpXSQ0nTNAx4uxFw=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <!-- vertical -->
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=y1sF6ZeASU0">
+                  <p class="video-title">HELLUVA BOSS - OOPS // S2: Episode 6</p>
+                </a>
+                <p class="video-author">Vivziepop</p>
+                <p class="video-stats">5.8M views &#183; 1 day ago</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=5MgBikgcWnY">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/5MgBikgcWnY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDC02Nqtd7esmfst7mZjwUNI6SUVA">
+              </a>
+              <div class="video-time">19:27</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/70r5TkYTLC0cpKLAiQEvcWLeIHB8yxoiog0nQIK9MmnZHqkICy0YA-jAaqfT2ChOBwehskjf5g=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=5MgBikgcWnY">
+                  <p class="video-title">The first 20 hours - how to learn anything</p>
+                </a>
+                <p class="video-author">TEDx Talks</p>
+                <p class="video-stats">36M views &#183; 10 years ago</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=3hw_y9hI_js">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/3hw_y9hI_js/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWp0GrGrZJmWmJY2sEZMsf34hkiw">
+              </a>
+              <div class="video-time">8:55</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaSqBfr0MgodqczfCDF6CyoDNTKZh9NVTGBMi4yJ1w=s68-c-k-c0x00ffffff-no-rj"> 
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=3hw_y9hI_js">
+                  <p class="video-title">What your early 20s will be like</p>
+                </a>
+                <p class="video-author">TheOdd1sOut</p>
+                <p class="video-stats">20M views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=3wqOyE7jxeo">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/3wqOyE7jxeo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCvDTF1gJ63wx_bUBI6DV7hSMmPIQ">
+              </a>
+              <div class="video-time">24:44</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/wPCQHp4Vb1VBWq7mfkTko1P37bzBfUqwBPQyo-c-vedYShITIMGiy7kyD5CPaiK8RbQqc1O2tQ=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=3wqOyE7jxeo">
+                  <p class="video-title">Therapist Answers Most Googled Questions About ADHD</p>
+                </a>
+                <p class="video-author">HealthyGamerGG</p>
+                <p class="video-stats">148k views &#183; 7 months ago</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=3C_22eBWpjg">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/3C_22eBWpjg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCqmtBhed57Jl1lbQF-RWAc20RYGw">
+              </a>
+              <div class="video-time">14:50</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/_JWDNvknIMf1SiKmORgImyQkdIvSskugrpGWsaUWM3WKqJQjfB7tQpZn2mMd11byMZwRa64o1eg=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=3C_22eBWpjg">
+                  <p class="video-title">How to Properly Layout A Website (For Beginners)</p>
+                </a>
+                <p class="video-author">The Website Architect</p>
+                <p class="video-stats">129k views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=JtGtqmC5wU4">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/JtGtqmC5wU4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7Yru2tUYyN_aeDbVgaohb0xybVw">
+              </a>
+              <div class="video-time">10:45</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaTXMeKMpN2HJrkEXak8yUyMACZiqkzkYnXquVNQBw=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=JtGtqmC5wU4">
+                  <p class="video-title">TAOISM | The Philosophy Of Flow</p>
+                </a>
+                <p class="video-author">Einzelgänger</p>
+                <p class="video-stats">6.3M views &#183; 4 years ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=hx3U64IXFOY">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/hx3U64IXFOY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAos8QNjOkV7M4dCH3cjwg5KiC4jw">
+              </a>
+              <div class="video-time">14:49</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/5ONImZvpa9_hYK12Xek2E2JLzRc732DWsZMX2F-AZ1cTutTQLBuAmcEtFwrCgypqJncl5HrV2w=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=3C_22eBWpjg">
+                  <p class="video-title">Using Failures, Movement & Balance to Learn Faster | Huberman Lab Podcast #7</p>
+                </a>
+                <p class="video-author">Andrew Huberman</p>
+                <p class="video-stats">1.1M views &#183; 2 years ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=2pIJoPkh9IU">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/2pIJoPkh9IU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_ylS0uCPQhTMrbMam6D2lFE_g0w">
+              </a>
+              <div class="video-time">11:27</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaQwx1pupZ72WgNIzqiDjlUD2DvZL-lDMTz4cYdZpA=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=2pIJoPkh9IU">
+                  <p class="video-title">I got fired from Facebook (for having a YouTube channel).</p>
+                </a>
+                <p class="video-author">TechLead</p>
+                <p class="video-stats">3M views &#183; 4 years ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=HzUIUTatyZI">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/HzUIUTatyZI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7pkfSvUCZSrAGkw5Bs_YCw315Gg">
+              </a>
+              <div class="video-time">38:50</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/Qe5sC85RImlsybzaitYiqKwMwvg7d6wg1IXe8bJGqtIQr3eYYr9xbhYiO8ohGblDCSv2RSHk=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=HzUIUTatyZI">
+                  <p class="video-title">Pastry Chef Attempts to Make Gourmet Krispy Kreme Doughnuts | Gourmet Makes | Bon Appétit </p>
+                </a>
+                <p class="video-author">Bon Appétit</p>
+                <p class="video-stats">10.4M views &#183; 3 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=Amkg1cdDCpM">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/Amkg1cdDCpM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcOSqf60Y5_69UbKkj8IB-4ds7FQ">
+              </a>
+              <div class="video-time">4:38</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/HjXKmDGoAp6b-JdGYpqJYYeN4S_CMpD_kqWvldpN53cbzn-i73t6mVNo8mNki-xLPwi0BVSFi-o=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=Amkg1cdDCpM">
+                  <p class="video-title">Can you change your sleep schedule?</p>
+                </a>
+                <p class="video-author">TED-Ed</p>
+                <p class="video-stats">199k views &#183; 1 day ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=87SH2Cn0s9A">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/87SH2Cn0s9A/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA8BjfQxpjZcbPOrtNFzED7xyY3Dw">
+              </a>
+              <div class="video-time">4:05:00</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaQ8qd9YUFBorodGktxw_--6xfk2EscQ-aT2v-dC6w=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=87SH2Cn0s9A">
+                  <p class="video-title">C Programming Full Course for free 🕹️</p>
+                </a>
+                <p class="video-author">Bro Code</p>
+                <p class="video-stats">1.6M views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=8pwGYLwTMhk">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/8pwGYLwTMhk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBtkNt2w8iQbLQrx_k8KxQdO2JumQ">
+              </a>
+              <div class="video-time">4:06</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaSuFt5EP6hMw0ACchoSCMjHN_P1D0HXJ2mZDTqt=s48-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=8pwGYLwTMhk">
+                  <p class="video-title">snarky</p>
+                </a>
+                <p class="video-author">quannnic</p>
+                <p class="video-stats">527k views &#183; 6 months ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=Ic-wMMTCeEY">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/Ic-wMMTCeEY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAQQjloU9-RkH84TY34rPcr2es61Q">
+              </a>
+              <div class="video-time">40:25</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaSFGq6dRMO9Dvh6wSN4_uh4xg1ySExICy1sULHejA=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=Ic-wMMTCeEY">
+                  <p class="video-title">Filet Mignon Fondue Doesn't Go Well | Kitchen Nightmares FULL EPISODE</p>
+                </a>
+                <p class="video-author">Kitchen Nightmares</p>
+                <p class="video-stats">8M views &#183; 2 years ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=1L-qD6WYr2c">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/1L-qD6WYr2c/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAqQFigIMCAAQARhoIDUofzAP&rs=AOn4CLAmiDuJ2CLC4BCMuw6tPo7Aat1czw">
+              </a>
+              <div class="video-time">3:14</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/kITg3bIUda_fOP0kO5z9QWbBoEO_EclQEAjK1L6dSzvOcm4mKEYcTEPIdwB94SvUn9BppBUT0Q=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=1L-qD6WYr2c">
+                  <p class="video-title">elijah - HUMAN feat. Matty Mullins [Official Visualizer]</p>
+                </a>
+                <p class="video-author">elijah</p>
+                <p class="video-stats">1.3k views &#183; 2 days ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=ynaJe18KtSA">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/ynaJe18KtSA/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDgefJk-9D53mp2cpwfBdpkXdBCDA">
+              </a>
+              <div class="video-time">4:10</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/4tkc-kHOCKoCtNWeFdpVOjZb3zKsRyBzNktU0Cuxh33rnRuSHJbM0sk2k--LT5ajxR_qKJnX5g=s48-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=ynaJe18KtSA">
+                  <p class="video-title">venus</p>
+                </a>
+                <p class="video-author">Regina Song - Topic</p>
+                <p class="video-stats">2.5k views &#183; 4 weeks ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=BZPRX9X5V5I">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/BZPRX9X5V5I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKwIwJz42_xr-S6kWYSvPYRumXow">
+              </a>
+              <div class="video-time">39:18</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/wPCQHp4Vb1VBWq7mfkTko1P37bzBfUqwBPQyo-c-vedYShITIMGiy7kyD5CPaiK8RbQqc1O2tQ=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=BZPRX9X5V5I">
+                  <p class="video-title">Dr. K, How Do I FOcus?</p>
+                </a>
+                <p class="video-author">HealthyGamerGG</p>
+                <p class="video-stats">538k views &#183; 1 year ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=DYCEXg4_lCM">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/DYCEXg4_lCM/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAieVwxjllwpO_xncVryynLJJn2pg">
+              </a>
+              <div class="video-time">22:17</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/KIq94K1ZMmnxu14wvGRBQpALqFRe8t7Li8ki-MMzN8tjUzyH07Cwi8IgT-eVUX7Q20pPcKrJwQ=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=DYCEXg4_lCM">
+                  <p class="video-title">FULL EPISODE | Rick and Morty Season 5 Premiere: Mort Dinner Rick Andre | adult swim</p>
+                </a>
+                <p class="video-author">Adult Swim</p>
+                <p class="video-stats">22M views &#183; 2 years ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=EFkyxzJtiv4">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/EFkyxzJtiv4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBDpUHBbEbGf0EN6gcmF_N1sPxhWw">
+              </a>
+              <div class="video-time">12:52</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaTQWaqxUYpkDEdI5XWfyNmpGPgbXgIsGCkXRE9s3A=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=EFkyxzJtiv4">
+                  <p class="video-title">Stoicism: Become Undefeatable</p>
+                </a>
+                <p class="video-author">Aperture</p>
+                <p class="video-stats">9.6M views &#183; 2 years ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=iN8zmmCRqUA">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/iN8zmmCRqUA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqKeGJ7YT2kMoFWP_n0VoOsKey_Q">
+              </a>
+              <div class="video-time">14:53</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaQc4bFhYmaLFt6AomM6wsmfFSahhFvPLLMeed6R7w=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=iN8zmmCRqUA">
+                  <p class="video-title">$3 Fries Vs $100 Fries</p>
+                </a>
+                <p class="video-author">BuzzFeedVideo</p>
+                <p class="video-stats">30M views &#183; 5 years ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a class="video-link" href="https://www.youtube.com/watch?v=-6WCkTwW6xg">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/-6WCkTwW6xg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEz1G7teps521oUD8R0JFFYZatng">
+              </a>
+              <div class="video-time">14:50</div>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/m1WI2xsDLyJUGUnt2ZRSxqsT89gSnRaUQunO5p5WmpU1113oO31EXNl_8w1cuZXmIA0EHOTyJw=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-input">
+                <a class="video-link" href="https://www.youtube.com/watch?v=-6WCkTwW6xg">
+                  <p class="video-title">How to Give Your Brain the Stimulation It Needs</p>
+                </a>
+                <p class="video-author">How to ADHD</p>
+                <p class="video-stats">1.6M views &#183; 3 years ago</p>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+  </body>
+</html>
